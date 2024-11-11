@@ -11,5 +11,7 @@
         @apply h-[46px] w-[138px] cursor-pointer bg-[url('/Assets/logo.webp')] bg-no-repeat bg-cover dark:bg-[url('/Assets/logo-white.webp')]
     }
 
-
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
 }
