@@ -5,3 +5,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .logo-img{
+        @apply h-[46px] w-[138px] cursor-pointer bg-[url('/Assets/logo.webp')] bg-no-repeat bg-cover dark:bg-[url('/Assets/logo-white.webp')]
+    }
+
+
+}

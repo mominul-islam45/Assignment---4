@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'jakarta': ['"Plus Jakarta Sans"', 'sans']
+      },
+      screens:{
+        ml: '780px'
       }
     },
   },
