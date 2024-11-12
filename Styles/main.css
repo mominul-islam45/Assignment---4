@@ -14,4 +14,25 @@
     .dropdown:hover .dropdown-content{
         display: block;
     }
+
+    .card{
+        @apply bg-[#2D3142] p-4 rounded-xl self-stretch hover:scale-105 hover:shadow-lg hover:-translate-y-4 transition-all duration-200
+    }
+
+    .btn{
+        @apply text-red-500 font-bold border-2 w-fit border-red-500 rounded-full py-2 px-8 cursor-pointer flex items-center hover:scale-105 transition-all 
+    }
+
+    .btn:hover .icon{
+        display: block;
+        animation:  a-1 0.3s linear;
+    }
+    @keyframes a-1{
+        0%{
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(12px);
+        }
+    }
 }
