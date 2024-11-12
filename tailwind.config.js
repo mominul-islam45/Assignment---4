@@ -7,7 +7,7 @@ module.exports = {
         'jakarta': ['"Plus Jakarta Sans"', 'sans']
       },
       screens:{
-        ml: '780px'
+        ml: '800px'
       }
     },
   },

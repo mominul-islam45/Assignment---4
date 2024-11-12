@@ -35,4 +35,17 @@
             transform: translateX(12px);
         }
     }
+
+    .icon-clr{
+        animation: clr 3s ease-in infinite;
+    }
+    @keyframes clr{
+        20%{
+            fill: #00FF84;
+            transform: scale(1.4);
+        }
+        50%{
+            fill: #ef4444;
+        }
+    }
 }
