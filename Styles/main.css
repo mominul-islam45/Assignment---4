@@ -7,6 +7,30 @@
 @tailwind utilities;
 
 @layer utilities {
+    /* ===== custom scrollbar ===== */
+    .scrollbar::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: linear-gradient(transparent , #ef4444 70%);
+        border-radius: 8px;
+    }
+    .scrollbar::-webkit-scrollbar-thumb:hover{
+        background: linear-gradient(transparent, #4ade80 70%);
+        transition: all 3s linear;
+    }
+    
+    .scrollbar::-webkit-scrollbar-track {
+        background-color: rgb(223, 215, 215);
+    }
+    .scrollbar-dark::-webkit-scrollbar-track{
+        background-color: #334155;
+    }
+    /* ===== custom scrollbar ===== */
+
+
     .logo-img{
         @apply h-[46px] w-[138px] cursor-pointer bg-[url('/Assets/logo.webp')] bg-no-repeat bg-cover dark:bg-[url('/Assets/logo-white.webp')]
     }
@@ -16,7 +40,7 @@
     }
 
     .card{
-        @apply bg-[#2D3142] p-4 rounded-xl self-stretch hover:scale-105 hover:shadow-lg hover:-translate-y-4 transition-all duration-200
+        @apply bg-[#2D3142] p-4 rounded-xl self-stretch hover:scale-105 hover:shadow-lg hover:-translate-y-4 transition-all duration-200 dark:bg-slate-900 relative z-0
     }
 
     .btn{
@@ -50,7 +74,7 @@
     }
 
     .profile-card{
-        @apply bg-white p-6 w-5/6 xl:w-full rounded-xl flex flex-col items-center self-stretch shadow-[0_5px_20px_0_rgba(1,1,1,0.35)] hover:shadow-[0_5px_30px_0_rgba(1,1,1,0.4)] hover:-translate-y-4 transition-all duration-200
+        @apply bg-white p-6 w-5/6 xl:w-full rounded-xl flex flex-col items-center self-stretch shadow-[0_5px_20px_0_rgba(1,1,1,0.35)] hover:shadow-[0_5px_30px_0_rgba(1,1,1,0.4)] hover:-translate-y-4 transition-all duration-200 dark:bg-slate-800 dark:text-white
     }
 
     .footer-link-1{

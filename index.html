@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="" id="htmlDoc">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Styles/main.css">
 </head>
-<body class="font-jakarta">
+<body class="font-jakarta dark:bg-slate-900 scrollbar dark:scrollbar-dark">
     <!-- ======= Header section start ======= -->
     <header class="px-3 md:px-8 xl:px-12 py-3 sticky top-0 backdrop-blur-md border-b border-b-white/50 dark:bg-slate-900/40 dark:border-b-black/30 shadow-md dark:shadow-white/5 bg-white/40 z-30   border-l-[20px] border-l-red-500">
         <nav class="flex justify-between items-center">
@@ -29,7 +29,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                     </svg>
 
-                    <div class="absolute hidden dropdown-content bg-white p-6 w-48 -right-8 shadow-md rounded-lg">
+                    <div class="absolute hidden dropdown-content bg-white dark:bg-slate-800 p-6 w-48 -right-8 shadow-md rounded-lg">
                         <div class="items-start gap-4 md:gap-6 flex flex-col">
                             <a href="#" class=" hover:text-red-500 transition-colors dark:text-white dark:hover:text-red-500">Home</a>
                             <a href="#" class="text-red-500">About Us</a>
@@ -53,7 +53,12 @@
 
     <!-- ======= Hero section Start ======= -->
     <section class="relative bg-red-500 bg-[url('/Assets/hero-s-img.webp')] bg-no-repeat bg-cover  h-[715px] w-full">
-        <img src="Assets/Wave.svg" alt="" class="absolute -bottom-0.5 w-full"> <!--img mask-->
+        <!--img mask-->
+        <svg  viewBox="0 0 2184 263" fill="#FAFAFA" class=" absolute -bottom-0.5 dark:fill-slate-800" xmlns="http://www.w3.org/2000/svg">
+            <path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M2184 262.5H0V0C364 80 728 120 1092 120C1456 120 1820 80 2184 0V262.5Z" fill=""/>
+        </svg>
+        <!-- <img src="Assets/Wave.svg" alt="" class="absolute -bottom-0.5 w-full">  -->
+
         <div class="absolute top-16 left-1/2 -translate-x-1/2 text-center w-full ml:w-1/2 px-6 sm:px-12 ml:px-0">
             <h4 class="text-white text-sm sm:text-lg font-semibold">Discover <span class="text-red-500">-</span>Interact <span class="text-red-500">-</span>Engage</h4>
             <h1 class="text-white text-3xl sm:text-5xl font-bold leading-normal sm:leading-snug py-5">Connecting <span class="text-red-500 border-b-2 border-b-red-500">talent</span> to opportunity through <span class="text-red-500 border-b-2 border-b-red-500">skills</span> </h1>
@@ -65,10 +70,10 @@
 
 
     <!-- ======= Introduction section Start ======= -->
-    <section class="px-12 md:px-8 lg:px-16 bg-[#f5f5f5]">
+    <section class="px-12 md:px-8 lg:px-16 bg-[#f5f5f5] dark:bg-slate-800">
         <div class="container mx-auto grid sm:grid-cols-2 ml:grid-cols-4 gap-8 items-center">
             <div>
-                <h1 class="text-[#2D3142] text-2xl sm:text-3xl font-bold pt-4">At <span class="text-red-500 border-b-2 border-b-red-500">C4U,</span> We Empower:</h1>
+                <h1 class="text-[#2D3142] text-2xl sm:text-3xl font-bold pt-4 dark:text-white">At <span class="text-red-500 border-b-2 border-b-red-500">C4U,</span> We Empower:</h1>
             </div>
             <div class="card">
                 <div class="bg-white flex justify-center items-center rounded-full size-[48px] mt-4 mb-2">
@@ -113,7 +118,7 @@
 
 
     <!-- ======= Mission section Start ======= -->
-    <section class="px-3 md:px-8 lg:px-16 relative bg-[#F5F5F5] z-10">
+    <section class="px-3 md:px-8 lg:px-16 relative bg-[#F5F5F5] z-10 dark:bg-slate-800 dark:text-white">
 
         <!-- ======= Long line & circle ======= -->
         <div class="absolute top-[310px] left-1/2 -translate-x-1/2 hidden ml:block">
@@ -190,7 +195,7 @@
 
 
     <!-- ======= Vision section Start ======= -->
-    <section class="px-3 md:px-8 lg:px-16 bg-[#F5F5F5]">
+    <section class="px-3 md:px-8 lg:px-16 bg-[#F5F5F5]  dark:bg-slate-800 dark:text-white">
         <div class="container mx-auto grid ml:grid-cols-2 items-center py-28 ml:pt-48 ml:pb-64">
             <div class="ml:order-2 ml:ps-12 xl:px-20">
                 <p class="uppercase text-red-500 text-sm mb-6">About us</p>
@@ -255,7 +260,7 @@
 
 
     <!-- ======= Stages section Start ======= -->
-    <section class="px-3 md:px-8 lg:px-16 bg-white">
+    <section class="px-3 md:px-8 lg:px-16 bg-white dark:bg-slate-900 dark:text-white">
         <div class="container mx-auto grid grid-cols-1 ml:grid-cols-3 gap-24 xl:gap-40 pt-40 pb-24 px-10 sm:px-20 ml:px-0">
             <div class="relative">
                 <svg width="39" height="40" viewBox="0 0 39 40" fill="#00FF84" class=" m-5 icon-clr" xmlns="http://www.w3.org/2000/svg">
@@ -269,8 +274,8 @@
                     <path d="M30.4296 28.0635C30.0766 27.7272 29.548 27.7272 29.195 28.0635C28.842 28.3999 28.842 28.9035 29.195 29.2399L31.7951 31.7172C31.9707 31.8845 32.1911 31.9698 32.4115 31.9698C32.6319 31.9698 32.8523 31.8862 33.0279 31.7172C33.3809 31.3809 33.3809 30.8772 33.0279 30.5409L30.4296 28.0635Z" fill=""/>
                 </svg>
                 <h4 class="text-2xl font-bold py-5">Discover</h4>
-                <p class="text-sm font-medium text-gray-700">We uncover students unique skills to stand out in a crowded job market</p>
-                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-5 right-0">1</h1>
+                <p class="text-sm font-medium text-gray-700 dark:text-gray-300">We uncover students unique skills to stand out in a crowded job market</p>
+                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15 dark:text-white/10  absolute -top-5 right-0">1</h1>
             </div>
 
             <div class="relative">
@@ -280,8 +285,8 @@
                     <path d="M30.1366 23.2657L9.6086 3.70649L8.23766 2.39712C7.26684 1.469 5.60565 1.41276 4.70696 2.27212L2.42586 4.44712C1.49111 5.33776 1.55182 6.84713 2.5587 7.80805L24.4595 28.6769C24.7448 28.9456 25.2204 29.3925 30.4468 30.5206C30.555 30.5425 30.6633 30.555 30.7715 30.555C31.1356 30.555 31.475 30.4237 31.7259 30.1831C32.0473 29.8737 32.1769 29.4222 32.0736 28.9738C30.8896 23.9846 30.4173 23.5345 30.1368 23.2657L30.1366 23.2657ZM3.43568 6.97209C2.90928 6.47209 2.84861 5.71273 3.30121 5.27988L5.58066 3.108C5.77581 2.9205 6.04968 2.81738 6.34812 2.81738C6.71218 2.81738 7.08116 2.96894 7.35827 3.23302L8.29303 4.12366L4.36875 7.86274L3.43568 6.97209ZM24.3016 25.3253C24.0851 25.2612 23.849 25.3159 23.6883 25.4659C23.5276 25.6175 23.4636 25.8393 23.5243 26.0472L23.5522 26.1425L5.24628 8.69726L9.1722 4.95818L27.3601 22.291C27.1469 22.2379 26.9223 22.291 26.7665 22.4363C26.6058 22.5879 26.5435 22.8097 26.6041 23.0144L26.9272 24.1238L25.8416 23.8082C25.6251 23.7441 25.389 23.8003 25.2283 23.9519C25.0659 24.1003 25.0036 24.3253 25.0643 24.5331L25.3874 25.6394L24.3016 25.3253ZM25.3347 27.8409L25.0231 26.769L26.1022 27.0847C26.3219 27.1456 26.5646 27.0878 26.7253 26.9331C26.8828 26.7815 26.9451 26.5612 26.8828 26.3565L26.5614 25.2534L27.6437 25.5675C27.8585 25.6316 28.0946 25.5753 28.257 25.4237C28.4177 25.2753 28.4816 25.0519 28.421 24.8456L28.0946 23.7253L29.1802 24.0284L29.2622 24.105C29.3508 24.1894 29.5082 24.4519 29.7509 25.1519L26.4416 28.3081C25.7004 28.0722 25.4265 27.9253 25.3347 27.8409L25.3347 27.8409ZM30.8464 29.3534C30.8317 29.3659 30.8054 29.3753 30.7743 29.3753L30.7251 29.3675C29.4853 29.1018 28.5342 28.8753 27.7913 28.6847L30.1495 26.4378C30.3495 27.144 30.5857 28.0503 30.8677 29.23C30.8759 29.2831 30.8677 29.3316 30.8464 29.3534L30.8464 29.3534Z" fill=""/>
                 </svg>
                 <h4 class="text-2xl font-bold py-5">Interact</h4>
-                <p class="text-sm font-medium text-gray-700">We open doors to new opportunities by expanding your transferrable skills</p>
-                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-5 right-0">2</h1>
+                <p class="text-sm font-medium text-gray-700 dark:text-gray-300">We open doors to new opportunities by expanding your transferrable skills</p>
+                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15 dark:text-white/10  absolute -top-5 right-0">2</h1>
             </div>
 
             <div class="relative">
@@ -291,8 +296,8 @@
                     <path d="M13.7413 11.0919L15.8863 8.65912V18.4311C15.8863 18.8733 16.2618 19.2311 16.7259 19.2311C17.19 19.2311 17.5655 18.8733 17.5655 18.4311V8.65912L19.7105 11.0904V11.0919C19.8712 11.2716 20.1057 11.3763 20.3533 11.3763C20.5485 11.3779 20.7387 11.3154 20.8912 11.1997C21.2438 10.9169 21.2913 10.4138 20.9961 10.0763L17.3687 5.94829C17.2031 5.77642 16.9702 5.67798 16.7259 5.67798C16.4816 5.67798 16.2487 5.77642 16.0831 5.94829L12.4557 10.0639C12.1834 10.403 12.2392 10.8873 12.5819 11.1639C12.9263 11.4389 13.438 11.4076 13.7413 11.092L13.7413 11.0919Z" fill=""/>
                 </svg>
                 <h4 class="text-2xl font-bold py-5">Engage</h4>
-                <p class="text-sm font-medium text-gray-700">To forester a skill focussed environment that enable students to navigate their ideal career</p>
-                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15  absolute -top-5 right-0">3</h1>
+                <p class="text-sm font-medium text-gray-700 dark:text-gray-300">To forester a skill focussed environment that enable students to navigate their ideal career</p>
+                <h1 class="text-[200px] leading-none font-extrabold text-red-500/15 dark:text-white/10  absolute -top-5 right-0">3</h1>
             </div> 
         </div>
     </section>
@@ -302,13 +307,13 @@
     <!-- ======= Team-profile section Start ======= -->
     <section class="px-3 sm:px-8 ml:px-16 relative overflow-hidden">
                     
-        <svg width="1440" height="543" viewBox="0 0 1440 543" fill="none" class=" absolute left-1/2 -translate-x-1/2" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0H1440V173C1440 377.345 1274.35 543 1070 543H370C165.655 543 0 377.345 0 173V0Z" fill="#F9CCC7" fill-opacity="0.15"/>
+        <svg width="1440" height="543" viewBox="0 0 1440 543" fill="#F9CCC7" fill-opacity="0.15" class=" absolute left-1/2 -translate-x-1/2 dark:fill-slate-800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H1440V173C1440 377.345 1274.35 543 1070 543H370C165.655 543 0 377.345 0 173V0Z" />
         </svg>
 
         <div class="container mx-auto py-28">
             <div class="relative w-fit">
-                <h1 class="text-2xl sm:text-4xl font-semibold leading-[50px] sm:leading-[60px]">The Creative Team <br> behind <span class="text-red-500">the door</span></h1>
+                <h1 class="text-2xl sm:text-4xl font-semibold leading-[50px] sm:leading-[60px] dark:text-white">The Creative Team <br> behind <span class="text-red-500">the door</span></h1>
                 <svg width="127" height="115" viewBox="0 0 127 115" fill="none" class=" absolute top-10 left-full" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M64.0906 49.5472C62.0339 47.6125 60.0586 46.3942 58.4797 45.5542C43.3485 37.5811 30.0077 47.0833 21.1005 59.1044C18.7121 62.3239 16.1396 68.0671 16.1346 73.1061C16.1296 76.647 17.3635 79.8428 20.6369 81.721C24.1978 83.7817 28.8521 83.3688 33.5333 81.6704C40.3057 79.2194 47.1425 74.1075 50.5854 70.5851C54.5554 66.521 60.002 59.5921 64.4245 52.15C66.4786 54.4115 68.5535 57.4609 70.3131 61.6596C71.1019 63.5229 71.5122 65.8415 71.6102 68.343C67.829 68.8239 63.974 70.0739 60.2166 72.1553C57.0605 73.9094 51.1265 78.8349 47.9878 83.9662C45.7503 87.6309 44.96 91.4009 47.1246 94.3424C49.8181 97.9915 53.4287 98.3693 57.0349 97.0756C62.1136 95.2566 67.1668 89.9948 69.1996 86.5366C71.5625 82.5118 73.1542 75.8499 73.2002 69.7957C86.0623 68.8433 97.7425 77.1989 100.649 91.4597C100.74 91.8829 101.161 92.1612 101.589 92.0829C102.022 91.9908 102.303 91.5624 102.212 91.1391C99.1341 76.0511 86.7853 67.1868 73.1738 68.1787C73.0631 65.5165 72.6259 63.032 71.7847 61.0404C69.8433 56.4166 67.5362 53.1111 65.2652 50.7082C66.0699 49.3 66.8331 47.8766 67.5405 46.4486C70.7208 40.037 72.6938 33.6543 72.0432 28.7512C70.5412 17.4206 61.6626 11.1925 51.3987 9.50121C41.2322 7.82976 29.7415 10.6235 22.9207 17.177C22.603 17.4827 22.5913 17.9934 22.8976 18.3078C23.2041 18.6222 23.7089 18.6343 24.0265 18.3286C30.5171 12.0918 41.4682 9.47631 51.1384 11.0764C60.7113 12.6567 69.0589 18.3949 70.4625 28.9562C71.0741 33.6267 69.1321 39.6461 66.1102 45.7407C65.4809 47.0099 64.8053 48.2779 64.0906 49.5472ZM71.6352 69.9597C68.0998 70.4364 64.5008 71.6078 60.9878 73.5597C57.9834 75.2285 52.3422 79.9016 49.3475 84.8045C47.491 87.8431 46.6103 90.956 48.4109 93.3905C50.6021 96.3729 53.5609 96.6226 56.4988 95.5695C61.2286 93.8888 65.9287 88.9511 67.8248 85.7241C70.0468 81.9446 71.5722 75.6642 71.6352 69.9597ZM63.2715 50.9658C61.2438 49.0104 59.2873 47.7989 57.7348 46.9685C43.3893 39.4062 30.8267 48.661 22.3828 60.0548C20.1569 63.0526 17.7383 68.3993 17.7301 73.1094C17.7297 76.0588 18.6987 78.7681 21.4337 80.341C24.6239 82.1888 28.794 81.6934 32.9868 80.1762C39.5227 77.8108 46.1236 72.8627 49.4448 69.4676C53.415 65.4036 58.882 58.4354 63.2715 50.9658Z" fill="#00FF84"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M101.208 90.5985C100.594 90.0631 98.8225 88.5287 98.5484 88.3041C97.7768 87.6799 97.3017 87.4758 96.7956 87.3228C96.3873 87.2054 95.9479 87.1391 95.2133 86.8249C94.8099 86.6469 94.3381 86.8497 94.1669 87.2556C93.9958 87.6615 94.1901 88.1224 94.5935 88.3005C95.2629 88.5753 95.7093 88.6909 96.1019 88.787C96.5524 88.9042 96.8965 89.0138 97.5439 89.5459C97.8612 89.8019 99.4719 91.4182 100.351 92.0036C100.809 92.3107 101.212 92.3792 101.412 92.3429C101.699 92.2914 102.013 92.1245 102.306 91.7943C102.681 91.3689 103.095 90.5833 103.579 89.7136C104.031 88.8951 104.561 87.9799 105.238 87.2589C105.812 86.6562 106.49 86.2005 107.353 86.1712C107.792 86.1595 108.138 85.8015 108.127 85.3605C108.116 84.9195 107.749 84.5676 107.309 84.5792C106.011 84.6059 104.948 85.249 104.079 86.1657C103.31 86.9783 102.698 88.0041 102.183 88.9401C101.872 89.4981 101.598 90.0228 101.345 90.4144C101.305 90.4778 101.256 90.5381 101.208 90.5985Z" fill="#00FF84"/>
@@ -319,6 +324,7 @@
                 <!--Corner Dots-->
                 <div class="size-[213px] bg-[url('/Assets/Group-47269.png')] absolute -bottom-16 -left-6 xl:-left-10 -z-10 hidden sm:block"></div>
                 <div class="size-[213px] bg-[url('/Assets/Group-47269.png')] absolute -top-16 -right-6 xl:-right-10 -z-10 hidden sm:block"></div>
+
                 <!--Profile card-->
                 <div class="profile-card"> 
                     <!--Profile img-->
@@ -328,7 +334,7 @@
                         </div>
                     </div>
                     <h1 class="text-2xl font-bold pt-5">Ekta Mahjan</h1>
-                    <p class="text-sm text-black/40 pt-2 pb-5">Founder & C.E.O</p>
+                    <p class="text-sm text-black/40 dark:text-white/80 pt-2 pb-5">Founder & C.E.O</p>
                     <!--Icons group-->
                     <div class="flex gap-1.5">
                         <div class="size-9 bg-[#00FF84]/15 rounded-full cursor-pointer group hover:bg-red-500/15 transition-colors">
@@ -358,7 +364,7 @@
                         </div>
                     </div>
                     <h1 class="text-2xl font-bold pt-5">Toby Potter-Drake</h1>
-                    <p class="text-sm text-black/40 pt-2 pb-5">Product Manager Associate</p>
+                    <p class="text-sm text-black/40 dark:text-white/80 pt-2 pb-5">Product Manager Associate</p>
                     <!--Icons group-->
                     <div class="flex gap-1.5">
                         <div class="size-9 bg-[#00FF84]/15 rounded-full cursor-pointer group hover:bg-red-500/15 transition-colors">
@@ -388,7 +394,7 @@
                         </div>
                     </div>
                     <h1 class="text-2xl font-bold pt-5">Ross Davies</h1>
-                    <p class="text-sm text-black/40 pt-2 pb-5">Corporate Growth Associate</p>
+                    <p class="text-sm text-black/40 dark:text-white/80 pt-2 pb-5">Corporate Growth Associate</p>
                     <!--Icons group-->
                     <div class="flex gap-1.5">
                         <div class="size-9 bg-[#00FF84]/15 rounded-full cursor-pointer group hover:bg-red-500/15 transition-colors">
@@ -418,7 +424,7 @@
                         </div>
                     </div>
                     <h1 class="text-2xl font-bold pt-5">Leo Crozier</h1>
-                    <p class="text-sm text-black/40 pt-2 pb-5">Software Developer</p>
+                    <p class="text-sm text-black/40 dark:text-white/80 pt-2 pb-5">Software Developer</p>
                     <!--Icons group-->
                     <div class="flex gap-1.5">
                         <div class="size-9 bg-[#00FF84]/15 rounded-full cursor-pointer group hover:bg-red-500/15 transition-colors">
@@ -511,5 +517,15 @@
         <p class="text-center opacity-80 py-3 text-sm">Copyright 2022 Quickly LTD</p>
     </footer>
     <!-- =======  footer section End ======= -->
+
+
+    <!-- =======  Dark-mode script Start ======= -->
+    <script>
+        const htmlTag = document.getElementById("htmlDoc");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        })
+    </script>
+    <!-- =======  Dark-mode script End ======= -->
 </body>
 </html>
